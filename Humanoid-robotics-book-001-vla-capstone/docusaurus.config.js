@@ -13,7 +13,7 @@ const config = {
   favicon: '/img/favicon.svg',
 
 url: process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1'
-  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'https://humanoid-robotics-book-i0uddyw-irzas-projects-515d0e8.vercel.app')
+  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'https://humanoid-robotics-book-hackathon-1-nine.vercel.app/')
   : 'https://github.com/Muhammad-Saad-Awan',
 
 baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1') ? '/' : '/Humanoid-robotics-book/',
@@ -83,7 +83,7 @@ baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL ===
             label: 'Course',
           },
           {
-            href: 'https://github.com/irza16/Humanoid-robotics-book',
+            href: 'https://github.com/Muhammad-Saad-Awan/Humanoid-robotics-book-Hackathon-1',
             label: 'GitHub',
             position: 'right',
           },
