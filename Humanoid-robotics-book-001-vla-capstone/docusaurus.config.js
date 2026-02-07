@@ -155,7 +155,7 @@ baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL ===
               },
               {
                 label: 'GitHub Repository',
-                href: 'https://github.com/irza16/Humanoid-robotics-book',
+                href: 'https://github.com/Muhammad-Saad-Awan/Humanoid-robotics-book-Hackathon-1',
               },
               {
                 label: 'Panaversity Spec-Kit',
