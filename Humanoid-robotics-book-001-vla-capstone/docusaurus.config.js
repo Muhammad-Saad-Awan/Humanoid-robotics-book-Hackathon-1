@@ -13,7 +13,7 @@ const config = {
   favicon: '/img/favicon.svg',
 
 url: process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1'
-  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : '')
+  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'https://humanoid-robotics-book-i0uddyw-irzas-projects-515d0e8.vercel.app')
   : 'https://github.com/Muhammad-Saad-Awan',
 
 baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1') ? '/' : '/Humanoid-robotics-book/',
