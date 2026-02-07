@@ -13,15 +13,15 @@ const config = {
   favicon: '/img/favicon.svg',
 
 url: process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1'
-  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'https://humanoid-robotics-book-i0uddyw-irzas-projects-515d0e8.vercel.app')
-  : 'https://irza16.github.io',
+  ? (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : '')
+  : 'https://github.com/Muhammad-Saad-Awan',
 
 baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL === '1') ? '/' : '/Humanoid-robotics-book/',
 
 
   // GitHub pages deployment config.
-  organizationName: 'irza16', // Your GitHub username
-  projectName: 'Humanoid-robotics-book', // Your repo name
+  organizationName: 'Muhammad-Saad-Awan', // Your GitHub username
+  projectName: 'Humanoid-robotics-book-Hackathon-1', // Your repo name
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -53,7 +53,7 @@ baseUrl: (process.env.DEPLOYMENT_PLATFORM === 'VERCEL' || process.env.VERCEL ===
           sidebarPath: './sidebars.js',
           // Edit this page links
           editUrl:
-            'https://github.com/irza16/Humanoid-robotics-book/tree/main/'
+            'https://github.com/Muhammad-Saad-Awan/Humanoid-robotics-book-Hackathon-1/tree/main/Humanoid-robotics-book-001-vla-capstone'
         },
         blog: false, // Disabled blog for course-focused site
         theme: {
